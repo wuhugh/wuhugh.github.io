@@ -1,2 +1,2 @@
 # wuhugh.github.io
-Personal website
+My Projects

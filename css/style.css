@@ -1,0 +1,200 @@
+/* TODO:
+- Refactor code
+- Add transitions
+- Add responsive design
+*/
+
+body {
+    font-family: "Roboto", "Gill Sans", sans-serif;
+    color: black;
+    background-color:#383838;    
+}
+
+#left-pane, #collapsed-pane {
+    background-color: lightblue;
+    background-image:linear-gradient(to bottom right,#ADE9FD, #68BDD6);
+    font-weight: 100;
+    padding: 0;
+    min-height: 100%;
+    box-shadow: 10px 0 3px #222;
+    transition: all 1s ease;    
+}
+
+#left-pane {
+    display: block;
+}
+
+    #left-pane > h1 {
+        font-weight: 300;
+        font-size: 58px;
+        margin: 12px auto;
+    }
+
+    #left-pane > span {
+        display: block;
+        text-align: center;
+        margin: 10px auto;
+        font-size: 18px;        
+    }
+
+    #left-pane > ul {
+        padding-left: 0;
+        margin-left: 0px;
+    }
+
+    #left-pane > ul > li {
+        list-style-type: none;
+        font-size: 38px;
+        padding: 15px 15px;
+        margin: 0;
+        transition: all 0.4s ease;
+    }
+
+#collapsed-pane {
+    left: 0;
+    min-width: 72px;
+}
+
+    #collapsed-pane img {
+        margin: 20px auto;        
+    }
+
+    #collapsed-pane > ul {
+        display: block;
+        list-style-type: none;
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #collapsed-pane > ul > li {
+        padding: 10px 10px 10px 20px;
+        transition: all 0.4s ease;        
+    }
+
+@media only screen and (max-width: 1720px){
+    #left-pane { display: none;}
+    #collapsed-pane { display: block;}
+}
+
+@media only screen and (min-width: 1721px){
+    #left-pane { display: block;}
+    #collapsed-pane { display: none;}
+}
+
+#profile-background {
+    background-image: url("../img/central-park.jpg");
+    background-size: cover;
+    padding: 20px 0;
+    border-bottom: 1px black solid;
+}
+
+#profile-icon {
+    margin: 0px auto;
+    box-shadow: 0px 0px 20px #000;     
+}
+
+
+#main-content {
+    color: #CCC;
+    font-weight: 400;
+    padding-top: 10px;
+    max-width: 100%;
+}
+
+#main-content > * {
+    margin: 20px 80px;
+}
+
+    #main-content h2 {
+        text-align: center;
+        margin: 20px auto;
+        font-size: 56px;
+        font-weight: bold;
+    }
+
+    #main-content p {
+        padding: 5px 25px;
+        margin: 20px 0px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    
+h2 {
+    text-shadow: 2px 2px black;
+}
+
+#slideshow {
+    padding: 0;
+    position: relative;
+    margin-right: 0;
+    box-shadow: 1px 1px 5px black;
+}
+
+
+.round-picture {
+    border-radius: 30%;
+    display: block
+}
+
+
+.small-header {
+    color: #A0A0A0;
+    font-weight: bold;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.tab-whitespace {
+    margin-right: 25px;
+}
+
+.styled-break {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+a, a:link, a:visited, a:hover, a:active {
+    color: black;
+    text-decoration: none;
+}
+
+/* Add the color fade-in effect to the left-pane links */
+#linkedin:hover { background-color: rgba(0, 119, 181, 0.8); }
+#github:hover { background-color: rgba(212, 180, 104, 0.8); }
+#resume:hover { background-color: rgba(255, 0, 0, 0.8); }
+#email:hover { background-color: rgba(60, 186, 84, 0.8); }
+#comments:hover {background-color: rgba(255, 255, 255, 0.8); }
+
+
+#skills ul {
+    margin: 0;
+    padding-left: 20px;
+    text-align: center;        
+    
+}
+
+#skills li {
+    border: 1px #DDD solid;
+    margin: 10px 10px 10px 10px;
+    font-size: 18px;
+    padding: 10px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#platforms li {
+    border: none;
+    padding: 5px;
+    font-size: 28px;    
+}
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}

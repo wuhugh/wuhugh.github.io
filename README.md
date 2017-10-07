@@ -1,5 +1,5 @@
 # Hugh's Website
-A personal page for me.
+[A personal page for me](http://hughjwu.com)
 
 ### Resources Used
 - [Pure.CSS](https://purecss.io/) 

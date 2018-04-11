@@ -2,6 +2,7 @@
 // Refactor
 // Add animations
 
+/*
 $("#left-pane").click(function(){
     $("#left-pane").css({
         "display": "none"
@@ -23,3 +24,4 @@ $("#collapsed-pane").click(function(){
     $("#main-content").removeClass("pure-u-sm-23-24");
     $("#main-content").addClass("pure-u-md-20-24");
 });
+*/

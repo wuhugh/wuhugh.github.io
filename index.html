@@ -14,145 +14,63 @@
     <link rel="stylesheet" href="css/style.css" >
     
     <!-- Custom Font -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet"> 
-    <script src="https://use.fontawesome.com/1465a1ba89.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400"> 
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
   </head>
 
   <body>
-    <!-- Main wrapper -->
-    <div class="pure-g" id="container">
+    <!-- Main Container -->
+    <div id="container">
 
-        <!-- Left Pane -->
-        <div class="pure-u-1 pure-u-md-4-24" id="left-pane"> 
-          <div id="profile-background">
-              <img src="img/profile.png" class="round-picture" id="profile-icon" width=168 height=200 alt="Hugh Wu Profile Picture"> 
-          </div>
-          
-          <h1 class="center-text">Hugh Wu</h1>
-          <span><i class="fa fa-map-marker" aria-hidden="true"></i> Gainesville, FL</span>
-          <span><i class="fa fa-graduation-cap" aria-hidden="true"></i> University of Florida 2018</span>
-
-          <!-- External Websites -->
-          <ul>
-            <li id="linkedin"><a href="https://www.linkedin.com/in/wuhugh/" target="_blank"><i class="fa fa-linkedin tab-whitespace" aria-hidden="true"></i>Linkedin</a></li>
-            <li id="github"><a href="https://github.com/wuhugh" target="_blank"><i class="fa fa-github tab-whitespace" aria-hidden="true"></i>Github</a></li>
-            <li id="resume"><a href="files/HughWu_Resume.pdf" target="_blank"><i class="fa fa-file tab-whitespace" aria-hidden="true"></i>Resume</a></li>
-            <li id="email"><a href="mailto:hughjwu@gmail.com?subject=We're looking to hire!" target="_blank"><i class="fa fa-envelope tab-whitespace" aria-hidden="true"></i>Email</a></li>
-            <li id="comments"><a href=#><i class="fa fa-comment" aria-hidden="true"></i> Comments</a></li>
-          </ul>
+      <!-- Row 1-->
+      <div class="pure-g one-third-height">
+        <div class="pure-u-1-2 card">
+          <i class="fas fa-user big-icon pure-img"></i>
+          <span class="card-title">
+            About Me
+          </span>
         </div>
-        <!-- End Left Pane -->
-
-        <!-- Collapsed-Pane -->
-        <div class="pure-u-1 pure-u-md-1-24" id="collapsed-pane"> 
-          <ul>
-              <li id="home"><a href="#home"><i class="fa fa-home" aria-hidden="true"></i></a></li>
-              <li id="linkedin"><a href="https://www.linkedin.com/in/wuhugh/" target="_blank"><i class="fa fa-linkedin tab-whitespace" aria-hidden="true"></i></a></li>
-              <li id="github"><a href="https://github.com/wuhugh" target="_blank"><i class="fa fa-github tab-whitespace" aria-hidden="true"></i></a></li>
-              <li id="resume"><a href="files/HughWu_Resume.pdf" target="_blank"><i class="fa fa-file tab-whitespace" aria-hidden="true"></i></a></li>
-              <li id="email"><a href="mailto:hughjwu@gmail.com?subject=We're looking to hire!" target="_blank"><i class="fa fa-envelope tab-whitespace" aria-hidden="true"></i></a></li>
-              <li id="comments"><a href=#><i class="fa fa-comment" aria-hidden="true"></i></a></li>
-          </ul>
-        </div>
-        <!-- End Collapsed-Pane -->
-
-
-        <!-- Main Content -->
-        <div class="pure-u-1 pure-u-md-20-24" id="main-content">
-          <!-- First Row -->
-          <h2>About Me</h2>
-          <hr class="styled-break">
-          <div class="pure-g" id="about-me">
-            <div class="pure-u-1 pure-u-md-14-24">
-              <p><strong>Hello!</strong> Welcome to my website!</p>
-              <p>I'm Hugh - a Senior Computer Engineering major at the University of Florida who loves programming, playing games of all kinds, and more recently bicycling.  
-              I have been programming for about three years, starting from the simple 'Hello World', to basic console programs, and now to building apps with actual user interfaces!
-              </p>
-              <p><strong>This site is still under construction</strong>, but feel free to send me an email or leave feedback!</p>
-            </div>
-          <!-- 
-            <div class="pure-u-1 pure-u-md-5-24">
-              <img id="slideshow" src="img/french-fries-thumb.png">
-            </div> -->
-          </div> 
-          <!-- End First Row -->
-
-          <!-- Second Row -->
-          <!-- Skills -->
-          <h2>Skills</h2>
-          <hr class="styled-break">
-          <div class="pure-g" id="skills">
-
-            <!-- First Column -->
-            <div class="pure-u-1 pure-u-lg-8-24">
-              <h3 class="small-header center-text">Languages</h3>              
-              <ul>
-                <li>C++</li>
-                <li>Java</li>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>C</li>
-              </ul>
-            </div>
-            <!-- End First Column -->
-
-            <!-- Second Column -->
-            <div class="pure-u-1 pure-u-lg-6-24">    
-              <h3 class="small-header center-text">Libraries and Frameworks</h3>
-              <ul>
-                <li>NodeJs</li>
-                <li>Express</li>
-                <li>jQuery</li>
-              </ul>
-            </div>
-            <!-- End Second Column -->
-
-            <!-- Third Coulumn -->
-            <div class="pure-u-1 pure-u-lg-3-24">                            
-              <h3 class="small-header center-text">Tools</h3>              
-              <ul>
-                <li>Git</li>
-              </ul>
-            </div>
-            <!-- End Third Column -->
-
-            <!-- Fourth Column -->
-            <div class="pure-u-1 pure-u-lg-4-24">                    
-              <h3 class="small-header center-text">Platforms</h3>              
-              <ul id="platforms">
-                <li><i class="fa fa-linux" aria-hidden="true"></i></li>
-                <li><i class="fa fa-windows" aria-hidden="true"></i></li>
-              </ul>
-            </div>
-            <!-- End Fourth Column -->
-          </div>
-          <!-- End Second Row -->
-
-          <!-- Third Row -->
-          <div class="pure-g">
-            <div class="pure-u-1 pure-u-md-24-24" id="projects">
-              <h2>Projects</h2>
-              <hr class="styled-break">
-              <p><strong>What're thooose</strong></p>
-            </div>
-          </div>
-          <!-- End Third Row -->
-
-          <footer>
-              Hugh Wu &copy 2017
-          </footer>    
         
+        <div class="pure-u-1-2 card">
+          <i class="fas fa-code big-icon pure-img"></i>
+          <span class="card-title">
+            Experience
+          </span>
         </div>
-        <!-- End Main Content -->
+      </div>
 
+      <!-- Row 2-->
+      <div class="pure-g one-third-height">
+        <div class="pure-u-1-2 card">
+          <i class="fas fa-folder-open big-icon pure-img"></i>
+          <span class="card-title">
+            On-going Projects
+          </span>
+        </div>
+          
+        <div class="pure-u-1-2 card">
+          <i class="fas fa-folder big-icon pure-img"></i>
+            <span class="card-title">
+              Finished Projects
+            </span>
+        </div>
+      </div>
+
+      <!-- Row 3 -->
+      <div class="pure-g one-third-height">
+        <div class="pure-u-1-2 card">
+          <i class="fas fa-link big-icon pure-img"></i>
+          <span class="card-title">
+            Links
+          </span>
+        </div>
+
+        <div class="pure-u-1-2 card">
+          <span class="card-title">
+            SoonTM
+          </span>
+        </div>
+      </div>
     </div>
-    <!-- End Wrapper -->
-
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-    <!-- My effects -->
-    <script src="js/effects.js"></script>
   </body>
 </html>

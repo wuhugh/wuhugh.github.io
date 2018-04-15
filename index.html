@@ -16,61 +16,90 @@
     <!-- Custom Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400"> 
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+  
+    <!-- Scripts -->
+    <script src="js/effects.js"></script> 
   </head>
 
   <body>
     <!-- Main Container -->
-    <div id="container">
+    <div id="container" class="max-height">
 
-      <!-- Row 1-->
-      <div class="pure-g one-third-height">
-        <div class="pure-u-1-2 card">
+      <!-- Actual Content -->
+      <div id="content-wrapper" class="pure-g">
+        <div id="current-display" class="pure-u-1 content round-top-borders">
+          <!-- About Me -->
+          <div id="about-me">
+
+            <div id="about-me-banner" class="round-top-borders">
+              <img class="pure-img" src="../img/profile.png" alt="Hugh Wu, the man himself with what appears to be Central Park in the background">
+            </div>
+            <div id="hugh-metadata">
+              <span><i class="fas fa-id-card"></i> Hugh Wu</span>
+              <span><i class="fas fa-map-marker"></i> Gainesville, FL</span>
+              <span><i class="fas fa-graduation-cap"></i> University of Florida 2019</span>
+            </div>
+
+            <div class="inner-pad-space">
+              <p>
+                Hello! I am currently a Computer Engineering student at the University of Florida.
+                I love playing games of all kinds, biking, and building stuff. I've been programming for about
+                three years now, starting with the beloved Hello, World to this website and beyond. 
+              </p>
+              
+              <p>
+                Feel free to look around the page, send me a message, or break the site. 
+              </p>
+              
+              <p>
+                Also if you know who owns the domain hughwu.com, tell them I am open to buying that name.
+                My current offer is 3 (three) FlexBucks but we can also barter.
+              </p>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quae officia earum placeat aspernatur delectus vitae voluptatibus itaque nostrum dolor dolore unde iusto libero maxime, eius omnis eum, atque error.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, distinctio animi architecto, enim quo repellat ullam, exercitationem dolore mollitia harum ea sed dolorum quaerat quisquam tempora nesciunt minima deleniti? Soluta!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto nulla libero error, numquam dolor tempora perferendis dignissimos autem, accusantium minus cumque delectus sapiente? Provident, voluptas ratione corporis reiciendis quibusdam temporibus?
+              </p>
+            </div>
+          </div>
+          
+          <div id="experence">
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Naviation Panels on the bottom-->
+      <div id="tab-panels" class="pure-g">
+        <div class="pure-u-1-4 card">
           <i class="fas fa-user big-icon pure-img"></i>
           <span class="card-title">
             About Me
           </span>
-        </div>
-        
-        <div class="pure-u-1-2 card">
+        </div> 
+
+        <div class="pure-u-1-4 card">
           <i class="fas fa-code big-icon pure-img"></i>
           <span class="card-title">
             Experience
           </span>
-        </div>
-      </div>
-
-      <!-- Row 2-->
-      <div class="pure-g one-third-height">
-        <div class="pure-u-1-2 card">
-          <i class="fas fa-folder-open big-icon pure-img"></i>
-          <span class="card-title">
-            On-going Projects
-          </span>
-        </div>
+        </div> 
           
-        <div class="pure-u-1-2 card">
+        <div class="pure-u-1-4 card">
           <i class="fas fa-folder big-icon pure-img"></i>
             <span class="card-title">
-              Finished Projects
+              Projects
             </span>
         </div>
-      </div>
 
-      <!-- Row 3 -->
-      <div class="pure-g one-third-height">
-        <div class="pure-u-1-2 card">
+        <div class="pure-u-1-4 card">
           <i class="fas fa-link big-icon pure-img"></i>
           <span class="card-title">
             Links
           </span>
         </div>
-
-        <div class="pure-u-1-2 card">
-          <span class="card-title">
-            SoonTM
-          </span>
-        </div>
       </div>
+
     </div>
   </body>
 </html>

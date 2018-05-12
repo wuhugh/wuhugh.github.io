@@ -14,7 +14,7 @@ html, button, input, select, textarea,
     color: #2B2B2B;
 }
 
-/* For layout purposes lol */
+/* For layout purposes */
 .pure-g > div {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -25,6 +25,16 @@ html, button, input, select, textarea,
   height: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* The two below need to add up to 100% so the page doesn't scroll awkwardly */
 #content-wrapper {
   height: 85%;
 }
@@ -47,7 +57,7 @@ html, button, input, select, textarea,
   display: block;
   position: relative;
   top: 40%;
-  left: 50%;  
+  left: 50%;
   color: #EDEDED;
   transform: translate(-50%, -50%);
 }
@@ -56,6 +66,11 @@ html, button, input, select, textarea,
   font-size: 1.8em;
   font-weight: 300;
   margin-top: 10px;
+}
+
+.badge {
+  background-color: #2B2B2B;
+  box-shadow: 1px 1px 1px #111111;
 }
 
 .big-icon {
@@ -86,7 +101,7 @@ html, button, input, select, textarea,
 #about-me-banner {
   padding: 15px;
   border: 1px solid #2B2B2B;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/central-park.jpg"); 
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/central-park.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }

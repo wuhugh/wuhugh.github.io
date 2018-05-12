@@ -64,7 +64,7 @@ function setupTabListeners() {
 
 // Hides all views except the one whose div ID is passed in
 function toggleVisibility(divId) {
-  let views = Array.from(document.getElementById("current-display").children);
+  let views = Array.from(document.getElementById("content-wrapper").children);
 
   views.forEach(item => {
     if (item.id === divId) {

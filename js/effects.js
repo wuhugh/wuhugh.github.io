@@ -44,6 +44,7 @@ document.addEventListener("DOMContentLoaded", function() {
   setupTabListeners();
 });
 
+// Attaches onclick listeners to each nav anchor
 function setupTabListeners() {
   document.getElementById("about-me-tab").addEventListener("click", function() {
     toggleVisibility("about-me");

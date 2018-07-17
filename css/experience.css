@@ -1,0 +1,27 @@
+#experience h1 {
+  margin: 0;
+  background-color: #2B2B2B;
+  height: 100%;
+  padding: 20px 0;
+  color: #EDEDED;
+}
+
+#experience ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #2B2B2B;
+}
+
+#experience p {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+.big-icon {
+  font-size: 2em;
+}
+
+.text-align-center {
+  text-align: center;
+}

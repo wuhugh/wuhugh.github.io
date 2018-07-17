@@ -79,18 +79,20 @@ a {
 
 .flex-center {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-content: center;
-  flex-wrap: wrap;
+}
+
+.flex-direction-column {
+  flex-direction: column;
 }
 
 .flex-center > * {
   margin: auto;
 }
 
-.inner-pad-space {
-  padding: 10px;
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
 @media only screen and (max-width: 768px) {

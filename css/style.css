@@ -1,3 +1,7 @@
+/**
+* This file contains most of the classes used throughout all the views and on the index page
+*/
+
 body, html {
   margin: 0;
   padding: 0;
@@ -6,10 +10,6 @@ body, html {
   font-family: "Roboto", "Gill Sans", sans-serif;
   color: #2B2B2B;
 }
-
-/* * {
-  outline: 1px solid red;
-} */
 
 /* Overwrite PureCSS's default font */
 html, button, input, select, textarea,
@@ -47,58 +47,6 @@ a {
 /* The two below need to add up to 100% so the page doesn't scroll awkwardly */
 #content-wrapper {
   height: 85%;
-}
-
-#tab-panels {
-  height: 15%;
-  background-color: #2B2B2B;
-  cursor: pointer;
-}
-
-#tab-panels div.card {
-  color: #EDEDED;
-}
-
-#links {
-  height: 100%;
-}
-
-.card {
-  height: 100%;
-  text-align: center;
-  padding: 1em;
-  display: block;
-}
-
-/* TODO: Use flex to center this */
-.card > * {
-  display: block;
-  position: relative;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.card-title {
-  font-size: 1.8em;
-  font-weight: 300;
-  margin-top: 10px;
-}
-
-.badge {
-  background-color: #2B2B2B;
-  box-shadow: 1px 1px 1px #111111;
-}
-
-.big-icon {
-  font-size: 2.5em;
-}
-
-.inner-pad-space {
-  padding: 10px;
-}
-
-.content {
   line-height: 1.3em;
   text-align: justify;
   font-size: 1.5em;
@@ -109,51 +57,48 @@ a {
   margin: auto;
 }
 
-#about-me-banner {
-  padding: 15px;
-  border: 1px solid #2B2B2B;
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/img/central-park.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-  #about-me-banner > img {
-    margin: 15px auto;
-    border: 1px solid #2B2B2B;
-    border-radius: 5%;
-    box-shadow: 1px 1px 1px #2B2B2B;
-  }
-
-#hugh-metadata {
-  padding: 15px;
+#tab-panels {
+  height: 15%;
   background-color: #2B2B2B;
-  text-align: center;
-  color: #EDEDED;
-  font-size: 0.8em;
+  cursor: pointer;
 }
 
-#hugh-metadata > * {
-  display: inline-block;
-  margin: auto 20px;
+#tab-panels div {
+  height: 100%;
+  color: #EDEDED;
+}
+
+.tab-icon {
+  font-size: 2.5em;
+}
+
+.tab-title {
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-center > * {
+  margin: auto;
+}
+
+.inner-pad-space {
+  padding: 10px;
 }
 
 @media only screen and (max-width: 768px) {
-  .content {
-    height: 100%;
-    padding: 0px;
-    font-size: 1.05em;
+  .tab-icon {
+    font-size: 1.5em;
   }
 
-  .card {
-    padding: 0.5px;
-  }
-
-  .card-title {
+  .tab-title {
     font-size: 1em;
-    margin: 0;
-  }
-
-  .big-icon {
-    font-size: 2.5em;
   }
 }

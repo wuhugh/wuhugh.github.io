@@ -1,0 +1,14 @@
+#links {
+  height: 100%;
+}
+
+.card-icon {
+  font-size: 3em;
+}
+
+.card-title {
+  margin: auto;
+  text-align: center;
+  font-size: 3em;
+  font-weight: 300;
+}

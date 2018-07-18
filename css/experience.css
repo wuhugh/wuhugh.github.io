@@ -15,10 +15,19 @@
 
 #test-flex {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
 }
 
-.big-icon {
+#test-flex li {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.skill-icon {
   font-size: 2em;
+}
+
+.skill-text {
+  margin-top: 8px;
+  font-size: 1.1em;
 }

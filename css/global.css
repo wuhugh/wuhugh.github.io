@@ -44,10 +44,6 @@ a {
   height: 33.33%;
 }
 
-.one-fifth-height {
-  height: 20%;
-}
-
 /* The two below need to add up to 100% so the page doesn't scroll awkwardly */
 #content-wrapper {
   height: 85%;
@@ -83,6 +79,17 @@ a {
 
 .text-align-center {
   text-align: center;
+}
+
+.vertical-image-text-combo {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-image-text-combo > * {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .mt-5 {

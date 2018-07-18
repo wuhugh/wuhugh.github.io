@@ -13,15 +13,12 @@
   border: 1px solid #2B2B2B;
 }
 
-#experience p {
-  margin-top: 5px;
-  margin-bottom: 0;
+#test-flex {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .big-icon {
   font-size: 2em;
-}
-
-.text-align-center {
-  text-align: center;
 }

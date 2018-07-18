@@ -1,6 +1,6 @@
 /**
 * This file contains most of the classes used throughout all the views and on the index page
-*/
+**/
 
 body, html {
   margin: 0;
@@ -25,14 +25,6 @@ html, button, input, select, textarea,
   box-sizing: border-box;
 }
 
-.max-height {
-  height: 100%;
-}
-
-.one-third-height {
-  height: 33.33%;
-}
-
 ul {
   padding: 0;
   list-style-type: none;
@@ -44,12 +36,20 @@ a {
   text-decoration: none;
 }
 
+.max-height {
+  height: 100%;
+}
+
+.one-third-height {
+  height: 33.33%;
+}
+
 /* The two below need to add up to 100% so the page doesn't scroll awkwardly */
 #content-wrapper {
   height: 85%;
   line-height: 1.3em;
   text-align: justify;
-  font-size: 1.5em;
+  font-size: 1.25em;
   overflow: auto;
   max-width: 1024px;
   border-left: 1px solid #2B2B2B;
@@ -63,20 +63,6 @@ a {
   cursor: pointer;
 }
 
-#tab-panels div {
-  height: 100%;
-  color: #EDEDED;
-}
-
-.tab-icon {
-  font-size: 2.5em;
-}
-
-.tab-title {
-  font-size: 1.8em;
-  font-weight: 300;
-}
-
 .flex-center {
   display: flex;
   justify-content: center;
@@ -87,20 +73,6 @@ a {
   flex-direction: column;
 }
 
-.flex-center > * {
-  margin: auto;
-}
-
 .flex-wrap {
   flex-wrap: wrap;
-}
-
-@media only screen and (max-width: 768px) {
-  .tab-icon {
-    font-size: 1.5em;
-  }
-
-  .tab-title {
-    font-size: 1em;
-  }
 }

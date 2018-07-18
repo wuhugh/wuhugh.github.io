@@ -1,0 +1,35 @@
+/**
+* height 100% is necessary for the elements to be vertically centered
+**/
+#tab-panels div {
+  height: 100%;
+  color: #EDEDED;
+}
+
+.tab-icon {
+  font-size: 2.5em;
+}
+
+.tab-title {
+  margin-top: 10px;
+  font-size: 1.8em;
+  font-weight: 300;
+}
+
+/**
+* The first margin value has to be 0 for some reason, otherwise the icons get shifted over
+* I have no idea why
+**/
+#tab-panels div svg {
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 768px) {
+  .tab-icon {
+    font-size: 1.5em;
+  }
+
+  .tab-title {
+    font-size: 1em;
+  }
+}

@@ -44,6 +44,10 @@ a {
   height: 33.33%;
 }
 
+.one-fifth-height {
+  height: 20%;
+}
+
 /* The two below need to add up to 100% so the page doesn't scroll awkwardly */
 #content-wrapper {
   height: 85%;
